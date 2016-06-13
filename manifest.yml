@@ -25,7 +25,7 @@ url_to_dependency_map:
 dependencies:
 - name: clidriver
   version: 10.5.7
-  uri: http://oneconnect:blueconnect@oneconnect.mybluemix.net/ds/drivers/download/clidriver64/linuxamd64/live?Accept-License=Yes
+  uri: https://public.dhe.ibm.com/ibmdl/export/pub/software/data/db2/drivers/odbc_cli/linuxx64_odbc_cli.tar.gz
   cf_stacks:
   - cflinuxfs2
   md5: c726b670dfabd482338b7662ffd37563
