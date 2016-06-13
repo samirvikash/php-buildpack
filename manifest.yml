@@ -23,6 +23,12 @@ url_to_dependency_map:
   name: composer
   version: "$1"
 dependencies:
+- name: clidriver
+  version: 10.5.7
+  uri: http://oneconnect:blueconnect@oneconnect.mybluemix.net/ds/drivers/download/clidriver64/linuxamd64/live?Accept-License=Yes
+  cf_stacks:
+  - cflinuxfs2
+  md5: c726b670dfabd482338b7662ffd37563
 - name: newrelic
   version: 6.3.0.161
   uri: https://download.newrelic.com/php_agent/archive/6.3.0.161/newrelic-php5-6.3.0.161-linux.tar.gz

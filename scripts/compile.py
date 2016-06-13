@@ -37,6 +37,8 @@ if __name__ == '__main__':
             .method(setup_log_dir)
         .register()
             .extension()
+                .from_build_pack('lib/clidriver')
+            .extension()
                 .from_build_pack('lib/{WEB_SERVER}')
             .extension()
                 .from_build_pack('lib/php')
