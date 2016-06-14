@@ -13,6 +13,9 @@ exclude_files:
 - buildpack-packager/
 - php_buildpack-*v*
 url_to_dependency_map:
+- match: "\\/clidriver64\\/(.*)\\/clidriver64_linuxamd64_(.*).tar.gz"
+  name: clidriver
+  version: "$1"
 - match: newrelic-php5-(\d+\.\d+\.\d+\.\d+)-linux
   name: newrelic
   version: "$1"
